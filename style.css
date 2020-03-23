@@ -1,6 +1,9 @@
 .chicken {
   position: absolute;
+  animation: chicken 0.4s infinite, 3s linear .1s infinite running slidein;
+  -webkit-animation: chicken 0.4s infinite, 3s linear .1s infinite running slidein;
   -moz-animation: chicken 0.4s infinite, 3s linear .1s infinite running slidein;
+  -o-animation: chicken 0.4s infinite, 3s linear .1s infinite running slidein;
 }
 
 @keyframes chicken {
